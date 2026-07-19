@@ -146,6 +146,8 @@ a {
 
 .learning-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 
     color: white;
@@ -176,12 +178,20 @@ p {
 .learning-content-bottom {
     display: flex;
     gap: 48px;
-    padding: 8px 16px 8px 16px;
 }
 
 .learning-content-bottom > a {
     font-size: 32px;
     color: rgba(147, 184, 232, 1);
+
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+/* HOVER EFFECTS */
+
+.learning-content-bottom > a:hover {
+    background-color: #D8F2FF33;
 }
 
 
@@ -197,14 +207,22 @@ p {
 }
 
 
+.software-card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+
+}
+
 
 .software-card {
     color: white;
     width: 600px;
 
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 24px;
     padding: 24px;
 
@@ -224,19 +242,6 @@ p {
     font-size: 20px;
     padding-top: 16px;
 }
-
-
-
-
-.software-card-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
-
-}
-
-
 
 
 /* <!-------- ↓ FOOTER ↓ --------> */
