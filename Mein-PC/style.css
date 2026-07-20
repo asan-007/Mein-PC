@@ -54,6 +54,11 @@ a {
     background-color: rgba(0, 0, 0, 0.400);
 } 
 
+.header > a > img {
+    display: block;
+}
+
+
 .nav-bar {
     display: flex;
     gap: 16px;
